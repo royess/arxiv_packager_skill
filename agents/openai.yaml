@@ -1,0 +1,10 @@
+interface:
+  display_name: "arXiv Packager"
+  short_description: "Flatten LaTeX into an arXiv bundle"
+  icon_small: "./assets/arxiv-packager-small.svg"
+  icon_large: "./assets/arxiv-packager-large.svg"
+  brand_color: "#0B5FFF"
+  default_prompt: "Use $arxiv-packager to flatten this LaTeX project into a minimal arXiv-ready bundle and verify it builds."
+
+policy:
+  allow_implicit_invocation: true
