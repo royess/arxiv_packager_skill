@@ -20,7 +20,7 @@ Use this skill when the user wants an arXiv-ready submission directory from an e
    - inline any included TeX content into the main file
    - do not leave `\input` or `\include` statements in the arXiv copy
 6. Keep the paper content unchanged unless the user explicitly asks for cleanup.
-7. If the user asks for a camera-ready cleanup, remove only full-line comments and leave non-comment content untouched.
+7. If the user asks for a camera-ready cleanup, remove full-line comments and any other standalone TeX comment lines in the packaged bundle, while leaving non-comment content untouched.
 8. Build the packaged bundle with LaTeX after copying, so the bundle is verified to produce a PDF.
 9. Verify the bundle contains no unnecessary files and that figure paths still match the copied layout.
 
